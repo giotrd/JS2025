@@ -27,7 +27,7 @@ console.log("Aire du cercle :",PI*rayon*rayon,"cm²");
 // Ecrire un programme qui indique si quelqu'un est majeur ou mineur en fonction de son âge
 // Avec une structure if
 
-let a = 18;
+let age = 18;
 
 if (a >= 18) { 
     console.log("La personne est majeur");
