@@ -34,3 +34,4 @@ if (a >= 18) {
 } else { 
     console.log("La personne est mineur");
 }
+
