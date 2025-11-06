@@ -23,3 +23,14 @@ console.log(bonjour+tout_le_monde)  // Print "Hello World"
 const PI = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679; 
 let rayon = 12;
 console.log("Aire du cercle :",PI*rayon*rayon,"cm²");
+
+// Ecrire un programme qui indique si quelqu'un est majeur ou mineur en fonction de son âge
+// Avec une structure if
+
+let a = 18;
+
+if (a >= 18) { 
+    console.log("La personne est majeur");
+} else { 
+    console.log("La personne est mineur");
+}
