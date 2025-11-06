@@ -20,6 +20,6 @@ console.log(bonjour+tout_le_monde)  // Print "Hello World"
 // Calculer la surface un cercle de rayon 12cm
 // Utiliser une constante pour la valeur de PI
 
-const PI = 3.14159265358979323846264338327950288419716939937510; 
+const PI = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679; 
 let rayon = 12;
-console.log("Aire du cercle : "+PI*rayon*rayon);
+console.log("Aire du cercle : ",PI*rayon*rayon);
