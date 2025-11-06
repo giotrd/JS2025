@@ -35,3 +35,16 @@ if (a >= 18) {
     console.log("La personne est mineur");
 }
 
+// En suisse, la majorité est à 17 ans, en France à 18 ans.
+// Refaire le programme ci-dessus en tenant compte de la nationalité
+
+let ages = 18;
+let nat = "Française";
+
+if (nat == 'Suisse' && ages < 17) { 
+    console.log("La personne",nat,"est mineur");
+} else if (nat == 'Française' && ages < 18) { 
+    console.log("La personne",nat,"est mineur");
+} else { 
+    console.log("La personne",nat,"est majeur");
+}
