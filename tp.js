@@ -16,3 +16,10 @@ console.log(c)  // Print de la valeur "c" dans la console
 let bonjour = "Hello ";             // Variable "bonjour" défini par "Hello"
 let tout_le_monde = "World";        // Variable "tout_le_monde" défini par World
 console.log(bonjour+tout_le_monde)  // Print "Hello World"
+
+// Calculer la surface un cercle de rayon 12cm
+// Utiliser une constante pour la valeur de PI
+
+const PI = 3.14159265358979323846264338327950288419716939937510; 
+let rayon = 12;
+console.log("Aire du cercle : "+2*PI*rayon)
