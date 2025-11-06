@@ -22,4 +22,4 @@ console.log(bonjour+tout_le_monde)  // Print "Hello World"
 
 const PI = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679; 
 let rayon = 12;
-console.log("Aire du cercle : ",PI*rayon*rayon);
+console.log("Aire du cercle :",PI*rayon*rayon,"cm²");
