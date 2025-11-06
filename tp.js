@@ -48,3 +48,13 @@ if (nat == 'Suisse' && ages < 17) {
 } else { 
     console.log("La personne",nat,"est majeur");
 }
+
+// Ecrire un programme pour afficher une table de multiplication
+// Avec une boucle for
+
+let table = 5;
+
+console.log("Table de multiplication de",table)
+for (let i = 0; i <=10; i++) {
+    console.log(table,"x",i,"=",i*table);
+}
