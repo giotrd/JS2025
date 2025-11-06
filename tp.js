@@ -22,4 +22,4 @@ console.log(bonjour+tout_le_monde)  // Print "Hello World"
 
 const PI = 3.14159265358979323846264338327950288419716939937510; 
 let rayon = 12;
-console.log("Aire du cercle : "+2*PI*rayon)
+console.log("Aire du cercle : "+PI*rayon*rayon)
